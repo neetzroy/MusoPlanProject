@@ -1,0 +1,101 @@
+
+Meeting Minutes
+
+Project MUSOPLAN
+Goblex Corporation
+
+Date: 24/08/2021
+Time: 12 20 PM
+
+Attendees: 
+Iresha, Music Management Officer
+Neethu, Programmer
+
+Agenda
+To discuss about the initial stages of development and launching of the software, MUSOPLAN for Goblex Corporation. MUSOPLAN is a software solution for the music management team in Globex to help them with operations of music troupes and identifying the costs of deployments. 
+
+Points to be covered are:
+•	Identify all the software requirements from the client side.
+•	Identify the data structures to be used in the project.
+•	Identify the Class hierarchies present.
+•	Looping behaviours inside the class methods.
+•	Conditional behaviours inside the class functions.
+•	User be inside the class functions.
+•	User inputs to the program.
+•	Output of the program.
+
+Topics discussed in the meeting.
+•	Discussed about the classes present in the program.
+•	Identified the Main class, child classes, and other independent classes in the program.
+•	Discussed about the relationships between the classes and also gathered an idea about the properties and methods to be defined in each class.
+•	Identified the methods to input user data in the program.
+•	Identified the way to get and extract output from the program. 
+
+
+Outcomes of the meeting.
+As a result of the discussion, an effective way of requirement gathering process has been carried out to get the clear idea about the MUSOPLAN software solution and what the client exactly want out of this project. The main aim of the Musoplan is to give outcome as prediction of success of Globex’s musicians by identifying the Cost of deployment of each troupe from the system with respect to user selection. 
+As mentioned earlier, Musoplan is a musical troupe management system where Musicians, their Instruments and Troupe plays an important role.
+Points collected in requirement gathering phase from User.
+•	Client wants to automate the current music management system from manual operations.
+•	User is looking for the below functionalities mainly:
+
+1.	Login Page /Home Page.
+2.	To add a new musician to the system with musician details.
+3.	Have an option to select category of each musician based on whether he is a guitarist or bassist or flautist or percussionist.
+4.	To create troupe and musicians into troupe.
+5.	Option to calculate the cost of each troupe when inputting playing hours of musicians by the user.
+6.	User wants to input musicians list one by one manually or also prefers to input from a text file.
+7.	User wants to display the information on the screen as list or also prefers to view it as a text file after writing to it.
+
+Data Flow as follows:
+
+Classes involved are Musician, Instrumentalist
+Musician as Main Class. 
+Has properties such as musician name, years playing, hourly rate.
+Select whether a musician is a guitarist, bassist, percussionist, or flautist.
+
+Musician Class has subclasses:  
+ 
+Guitarist sub class
+	Has musician name and interesting fact.
+	Percussionist sub class
+Has musician name and interesting fact.
+	Bassist sub class
+Has musician name and interesting fact.
+	Flautist sub class
+Has musician name and interesting fact.
+
+
+Instrumentalist as Child class of Musician.
+	Must have musician name and instrument name as properties.
+	Methods to display available instruments and their interesting fact.
+
+Troupe is an independent class object. 
+Troupe has properties such as:
+	Troupes name
+	Number of instruments in the troupe.
+	The genre the troupe plays.
+	Minimum duration of a booking.
+	Hourly rate for the whole troupe.
+
+Troupe must have the below methods:
+	Has functionality to enter troupe summary description.
+	Has functionality to enter troupe detailed description.
+
+Troupe must have functionalities to:
+o	To add musician
+o	Add musician details based on instrument.
+o	To create troupes with musicians list.
+o	Function to read musician list as text file.
+o	Function to enter musician details by user.
+o	Function to display troupe details and list as text file.
+o	Function to display troupe details and list on screen. 
+
+
+
+
+
+
+
+
+ 
