@@ -1,0 +1,29 @@
+Meeting Minutes
+
+Project MUSOPLAN
+Goblex Corporation
+
+Date: 03/09/2021
+Time: 2 00 PM
+
+Attendees: 
+Iresha, Music Management Officer
+Ofego, Asst Management Officer
+Neethu, Programmer
+
+Agenda
+Presentation of the software, MUSOPLAN of Goblex Corporation for user acceptance. 
+
+Discussion
+•	Discussed about the classes present in the program.
+•	Discussed the Main class, child classes, and other independent classes and methods in the program.
+•	Discussed about the relationships between the classes and the properties and methods defined in each class.
+•	Discussed about OOP concepts such as Abstraction, encapsulation, polymorphism, and inheritance and how they are effectively used in the software.
+•	Verified the input values from the user and output values shown to the user. 
+•	Discussed about the testing strategies used in the program for user input data validation process.
+•	Discussed about how the software has meet the VCS complains requirements.
+
+
+Outcomes of the meeting.
+As a result of the presentation and discussions, the MUSOPLAN software solution has been accepted by the user as its meets all the client requirements. 
+
