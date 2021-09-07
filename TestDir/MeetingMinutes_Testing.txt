@@ -1,0 +1,82 @@
+
+Meeting Minutes
+
+
+Project MUSOPLAN
+Goblex Corporation
+
+Date: 06/09/2021
+Time: 12 00 PM
+
+
+Attendees: 
+Iresha, Music Management Officer
+Neethu, Programmer
+
+
+Agenda
+To discuss about the test requirements of the software, MUSOPLAN for Goblex Corporation. Testing should be done to confirm that the newly developed software, MusoPlan is successfully meeting all the requirements mentioned in the client requirement documentation according to the company, Globex Corporates’ policies and standards.
+MUSOPLAN is a software solution for the music management team in Globex to help them with operations of music troupes and identifying the costs of deployments. 
+
+Points to be covered are:
+•	To identify all the software test requirements from the client side.
+•	Identify the data structures to be used in the test procedure.
+•	Testing all the possible User inputs to the program.
+•	Testing all the possible Output of the program.
+•	Actions required for any defects found in the system.
+
+
+Topics discussed in the meeting.
+•	Discussed and confirmed the test requirements of the software.
+•	Identified the data structure and platforms needs to be used in the testing procedure.
+•	Identified the types of testing needs to be carried out in the software as:
+	Unit testing, functional testing, and system testing.
+•	Identified the types of input user test cases to be used in the program a:
+	Edge cases, bases cases and corner cases.
+•	Identified the way to get and extract output from the program. 
+
+
+Outcomes of the meeting.
+As a result of the discussion, an effective way of test requirement gathering process has been carried out and confirmed all the user requirements. The main aim of this testing is to confirm whether the application is meeting all the user requirements.
+•	User is looking for the below functionalities mainly:
+1.	Create a musician 
+2.	Select whether the musician is a guitarist, bassist, percussionist, or flautist
+3.	Record their name, years playing, and hourly rate
+4.	All musicians must have functionality to
+5.	Describe an interesting fact depending on their instrument
+6.	Introduce themselves which must include their name, instrument, years playing, hourly rate, and interesting fact
+7.	Musician data requirements are
+a.	Name between 3 and 30 characters
+b.	Must play one of the four instruments below
+c.	Years playing must be non-negative
+d.	Hourly rate must be over 50
+8.	Create a troupe
+9.	Record the name, minimum duration, genre
+10.	Add a musician to a troupe
+11.	Provide a summary description of a troupe
+12.	Provide a detailed description of a troupe
+13.	Calculate the cost of deploying the troupe for a number of hours
+14.	Read a list of troupe names to be populated from a file
+15.	Write a list of the detailed descriptions for all troupes to a given filename
+16.	Describe the troupe in summary by stating
+a.	The troupe's name
+b.	How many of which instruments it contains
+c.	What genre the troupe plays
+d.	The minimum duration of a booking
+e.	The hourly rate for the whole troupe
+17.	Describe the troupe in detail by giving the troupe summary and then having each musician in the troupe introduce themselves
+18.	Troupe data requirements are
+a.	Name between 3 and 30 characters
+b.	No more than 5 musicians
+c.	Valid genre from (rock, jazz, pop)
+d.	Minimum duration in hours between 0.5 and 3
+
+
+
+
+
+
+
+
+
+
