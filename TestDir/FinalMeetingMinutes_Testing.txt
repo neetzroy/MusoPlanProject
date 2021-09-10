@@ -1,0 +1,41 @@
+
+Meeting Minutes
+
+
+Project MUSOPLAN
+Goblex Corporation
+
+Date: 09/09/2021
+Time: 2 00 PM
+
+
+Attendees: 
+Iresha, Music Management Officer
+Neethu, Programmer
+
+
+Agenda
+To discuss about the test progress report of MUSOPLAN project for Goblex Corporation. Testing should be done to confirm that the newly developed software, MusoPlan is successfully meeting all the requirements mentioned in the client requirement documentation according to the company, Globex Corporates’ policies and standards.
+MUSOPLAN is a software solution for the music management team in Globex to help them with operations of music troupes and identifying the costs of deployments. 
+
+Points to be covered are:
+How your test plan fits into the SDLC
+How your test cases relate to the requirements identified in activity 1
+Any defects identified and strategies for managing them.
+
+
+Outcomes of the meeting.
+Discussed and confirmed the test progress of the software.
+Discussed how the proposed test plan has fit into the SDLC. The proposed test plan perfectly fit into the SDLC as the application is tested and verified by the developers at phase of SDLC.
+All the test cases that are developed and identified in the activity 1 is able to successfully tested in the software.
+Few defects have been found during the testing process, that are taken for immediate action and planned a strategy for amending the update in the existing program.
+	
+
+
+
+
+
+
+
+
+
