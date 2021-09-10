@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="24" failures="0" errors="0" time="2.863">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-09-10T14:34:26" time="1.597" tests="9">
+    <testcase classname=" match text values " name=" match text values " time="0.004">
+    </testcase>
+    <testcase classname=" match text values " name=" match text values " time="0.001">
+    </testcase>
+    <testcase classname=" match text values " name=" match text values " time="0.001">
+    </testcase>
+    <testcase classname=" match text values " name=" match text values " time="0">
+    </testcase>
+    <testcase classname=" match text values " name=" match text values " time="0.002">
+    </testcase>
+    <testcase classname=" match text values " name=" match text values " time="0">
+    </testcase>
+    <testcase classname=" match text values " name=" match text values " time="0.001">
+    </testcase>
+    <testcase classname=" match text values " name=" match text values " time="0">
+    </testcase>
+    <testcase classname=" match text values " name=" match text values " time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-09-10T14:34:26" time="1.765" tests="10">
+    <testcase classname=" match text values of Musician " name=" match text values of Musician " time="0.155">
+    </testcase>
+    <testcase classname=" match text values of Musician " name=" match text values of Musician " time="0.009">
+    </testcase>
+    <testcase classname=" Calculate Cost of Troupe " name=" Calculate Cost of Troupe " time="0.006">
+    </testcase>
+    <testcase classname=" check if duration is greater than 0.5hrs and less than 3hrs" name=" check if duration is greater than 0.5hrs and less than 3hrs" time="0.001">
+    </testcase>
+    <testcase classname=" check if duration is greater than 0.5hrs and less than 3hrs" name=" check if duration is greater than 0.5hrs and less than 3hrs" time="0.002">
+    </testcase>
+    <testcase classname=" check if correct genre selected from list" name=" check if correct genre selected from list" time="0.001">
+    </testcase>
+    <testcase classname=" check if correct genre selected from list" name=" check if correct genre selected from list" time="0.001">
+    </testcase>
+    <testcase classname=" match text values of Troupe " name=" match text values of Troupe " time="0.006">
+    </testcase>
+    <testcase classname=" read file for success" name=" read file for success" time="0.022">
+    </testcase>
+    <testcase classname=" read file for success" name=" read file for success" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-09-10T14:34:26" time="1.83" tests="5">
+    <testcase classname=" match text values of Musician " name=" match text values of Musician " time="0.2">
+    </testcase>
+    <testcase classname=" match text values of guitarist " name=" match text values of guitarist " time="0.012">
+    </testcase>
+    <testcase classname=" match text values of bassist " name=" match text values of bassist " time="0.016">
+    </testcase>
+    <testcase classname=" match text values of flautist " name=" match text values of flautist " time="0.016">
+    </testcase>
+    <testcase classname=" match text values of percussionist " name=" match text values of percussionist " time="0.011">
+    </testcase>
+  </testsuite>
+</testsuites>
