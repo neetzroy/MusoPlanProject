@@ -3,7 +3,7 @@ const { Console, clear } = require('console')
 const ps=require('prompt-sync')
 
 const prompt=ps()
-
+//Main class or parent class
 class Musician
 {
     constructor(musName1,musType1,yearsPlaying1,hourlyRate1,interestFact1)
@@ -21,7 +21,7 @@ class Musician
     }
  
 }
-
+//child class
 class Guitarist extends Musician{
     constructor()
     {   
@@ -37,7 +37,8 @@ class Guitarist extends Musician{
         }
     }
    
- }  
+ } 
+ //child class 
  class Bassist extends Musician{
      constructor()
      {   
@@ -54,6 +55,7 @@ class Guitarist extends Musician{
      }
  
  }
+ //child class
  class Percussionist extends Musician{
      constructor()
      {   
@@ -69,6 +71,7 @@ class Guitarist extends Musician{
      }
  
  }
+ //child class
      class Flautist extends Musician{
          constructor()
          {   
@@ -92,15 +95,27 @@ class Troupe{
         this.durationTroupe=durationTroupe
         this.hourlyRateTroupe=hourlyRateTroupe
     }
+    //class aggregation implemented.
     addMusician()
-    {         
-            var musDetails= "Musician name: "+ myMus[0]+"\n"
-            +"Musician Playing Year: "+myMus[2]
-            +"\n"+"Hourly Rate: "+myMus[3]
+    { 
+            var musName= myMus[0]
+            var musYear= myMus[2]
+            var musRate= myMus[3]
 
-            console.log('\n'+'ADDED MUSICIAN DETAILS:---------->'+'\n'+ musDetails)
+            let addMusician=
+            {
+                addName:musName,
+                addYear:musYear,
+                addRate:musRate,
+
+                displayMusDetails()
+                {
+                    return this.addName +' '+this.addYear+' '+this.addRate
+                }
+            }
+            console.log('\n'+'ADDED MUSICIAN DETAILS:---------->'+'\n'+ addMusician.displayMusDetails())
           
-    }
+   }
     
     showMusicianSummary()
     {
